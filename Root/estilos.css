@@ -7,6 +7,7 @@ body { width:1024px;
     height:1650px;
     background-color:#FFF;
     margin:0 auto;
+    display: block;
     font-family: 'Fira Sans', sans-serif;
     justify-content: center;
     position:relative}
@@ -15,7 +16,6 @@ main{ margin:0 auto}
 
 header{ height:500px;
       width:1024px}
-
 
 nav{width: 1000px;
     height:60px;
@@ -285,3 +285,27 @@ span a:hover {color:#fC0}
         transform: scale(1.2);
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     }
+
+    /*media queries tablet*/
+    @media (min-width:577px) and (max-width:991px)
+        {body{
+        background-color: yellow;
+        }}
+
+    /*media queries smartphone*/
+    @media (max-width:576px)
+        {body{
+        background-color: lightgreen;
+        }}
+    @media (max-width:768px) and (landscape)
+        {body{
+        background-color: lightskyblue;
+            }}
+
+
+
+
+
+
+
+
