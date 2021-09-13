@@ -1,0 +1,14 @@
+$color3:#fff;
+$fontfam:'Fira Sans', sans-serif;
+
+
+body { width:1024px;
+    height:1650px;
+    background-color:$color3;
+    margin:0 auto;
+    display: block;
+    font-family:$fontfam;
+    justify-content: center;
+    position:relative}
+
+main{ margin:0 auto}

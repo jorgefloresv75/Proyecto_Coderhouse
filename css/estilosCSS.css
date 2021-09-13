@@ -1,0 +1,310 @@
+body {
+  width: 1024px;
+  height: 1650px;
+  background-color: #fff;
+  margin: 0 auto;
+  display: block;
+  font-family: "Fira Sans", sans-serif;
+  justify-content: center;
+  position: relative; }
+
+main {
+  margin: 0 auto; }
+
+header {
+  height: 500px;
+  width: 1024px; }
+
+nav {
+  width: 1000px;
+  height: 60px;
+  margin: 30px;
+  position: absolute;
+  top: 0;
+  clear: both; }
+
+nav ul {
+  float: right; }
+
+nav ul li {
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
+  margin: -30px;
+  padding-right: 100px; }
+
+nav ul li a {
+  color: #fff;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  text-decoration: none; }
+
+a:hover {
+  color: #fc3; }
+
+.boton {
+  float: right;
+  background-color: #F90;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  height: 30px;
+  width: auto;
+  border: none;
+  padding-top: 5px;
+  letter-spacing: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  margin-top: 4px;
+  margin-right: 20px; }
+
+.boton a {
+  color: #000;
+  text-decoration: none; }
+
+.boton a:hover {
+  color: #fff; }
+
+.formulario, #mini {
+  margin: 10px;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 14px; }
+
+.formulario {
+  width: 160px; }
+
+#llegada, #salida {
+  font-family: "Fira Sans", sans-serif;
+  width: 120px; }
+
+section {
+  font-family: "Fira Sans", sans-serif;
+  width: 120px;
+  font-size: 12px;
+  text-align: center; }
+
+.title-reviews,
+.title-ubicacion {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 18px;
+  font-weight: bold; }
+
+.title-ubicacion {
+  float: right;
+  margin-right: 180px; }
+
+.title-reviews {
+  float: left;
+  margin-left: 180px; }
+
+hr {
+  width: 50px;
+  height: 3px;
+  background-color: #F90;
+  border: none; }
+
+.mapa {
+  float: right;
+  text-align: right;
+  display: inline;
+  margin-right: 0px; }
+
+.reviews {
+  text-align: left;
+  display: inline;
+  float: left;
+  margin-left: 0px;
+  position: relative; }
+
+.promo1,
+.promo2,
+.promo3 {
+  height: 314px;
+  text-align: center;
+  display: inline-block;
+  margin: 30px; }
+
+.promo1 {
+  margin-left: 0px; }
+
+.promo3 {
+  position: absolute;
+  float: right;
+  margin-right: 0px; }
+
+footer {
+  height: 225px;
+  width: 1024px;
+  background: linear-gradient(black, red);
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: justify; }
+
+footer ul {
+  text-align: justify;
+  padding: top 30px; }
+
+footer ul li {
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
+  margin: 20px;
+  vertical-align: top; }
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 12px;
+  font-weight: bold; }
+
+footer a:hover {
+  color: #fc3; }
+
+p {
+  color: #000;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 11px;
+  font-weight: lighter;
+  text-align: center; }
+
+address {
+  color: #fff;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 10px;
+  font-weight: lighter;
+  text-align: center; }
+
+.logo {
+  text-align: center;
+  bottom: -200px; }
+
+span {
+  display: inline-block;
+  line-height: 15px; }
+
+span a {
+  font-weight: lighter;
+  font-size: 11px; }
+
+span a:hover {
+  color: #fc0; }
+
+#redes a {
+  margin: 4px; }
+
+.contacto {
+  width: 100%; }
+
+.contact_form2 {
+  margin-left: 50%;
+  width: 100%; }
+
+.contact_form2 ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px; }
+
+.contact_form2, .sub-entry li {
+  padding: 12px;
+  position: relative;
+  list-style-type: none;
+  text-align: left; }
+
+.sub-entry {
+  text-align: left;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 4px;
+  margin-right: 0px; }
+
+.sub-entry ul {
+  list-style: none; }
+
+.contact_form2 label {
+  color: #000;
+  display: inline-block;
+  float: none;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 4px;
+  padding: 3px;
+  width: 150px; }
+
+.contact_form2 input {
+  height: 20px;
+  width: 200px;
+  padding: 2px 2px; }
+
+.sub-entry textarea .mensaje textarea {
+  padding: 8ps;
+  width: 256px; }
+
+.contact_form2 input, .sub-entry textarea, .contact_form2 textarea {
+  border: 1px solid #aaa;
+  box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+  border-radius: 2px;
+  color: #888;
+  font-size: 12px;
+  padding-right: 30px;
+  -moz-transition: padding .25s;
+  -webkit-transition: padding .25s;
+  -o-transition: padding .25s;
+  transition: padding .25; }
+
+.contact_form2 textarea {
+  height: 150px;
+  width: 350px; }
+
+.contenedor {
+  width: 100%;
+  background: #666666;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.contenedor img {
+  width: 20%;
+  height: 200px;
+  margin: 10px; }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  grid-gap: 10px;
+  align-items: start;
+  justify-items: center;
+  margin: auto;
+  width: 540px; }
+
+.grid img {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+  max-width: 100%; }
+
+.grid img:nth-child(6) {
+  grid-column: span 5; }
+
+.thumbnail:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
+
+/*media queries tablet*/
+@media (min-width: 577px) and (max-width: 991px) {
+  body {
+    background-color: yellow; } }
+
+/*media queries smartphone*/
+@media (max-width: 576px) {
+  body {
+    background-color: lightgreen; } }
+
+@media (max-width: 768px) and (landscape) {
+  body {
+    background-color: lightskyblue; } }

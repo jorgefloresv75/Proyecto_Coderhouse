@@ -1,0 +1,32 @@
+$color2:#fff;
+$color4:#fc3;
+$fontfam:'Fira Sans', sans-serif;
+$fontsize:10px;
+
+
+
+header{height:500px;
+    width:1024px}
+
+nav{width:1000px;
+  height:60px;
+  margin:30px;
+  position:absolute;
+  top:0;
+  clear:both}
+
+nav ul{ float: right}
+
+nav ul li{text-decoration: none;
+          list-style: none;
+          display: inline-block;
+          margin:-30px;
+          padding-right: 100px}
+
+nav ul li a{ color:$color2;
+          font-family:$fontfam;    
+          font-size: $fontsize+3;
+          font-weight: bold;
+          text-decoration: none}
+
+a:hover {color: $color4}
